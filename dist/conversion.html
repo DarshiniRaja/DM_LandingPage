@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversion Rate Optimization (CRO) | ScalePulse Digital</title>
+  <meta name="description" content="Discover how we turn dead traffic into paying customers. The science of landing page conversion rate optimization and funnel engineering.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232563eb'><path d='M13 2L3 14h9l-1 8 10-12h-9l1-8z'/></svg>">
+  <script type="module" crossorigin src="/assets/main-Y1fsTxDx.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-CT-bqhVJ.css">
+</head>
+<body>
+
+  <!-- ==================== SITE HEADER ==================== -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-logo" aria-label="ScalePulse Home">
+        <div class="brand-icon-box">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">ScalePulse</span>
+          <span class="brand-tagline">Growth Engineered</span>
+        </div>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="problem-solving.html" class="nav-link">Problem Solving</a></li>
+          <li><a href="conversion.html" class="nav-link active">Conversion</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="btn btn-analysis" data-open-modal="analysis">
+          <span class="pulse-dot"></span>
+          GET FREE ANALYSIS
+        </button>
+
+        <button type="button" class="mobile-toggle" aria-label="Toggle Navigation Drawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer & Overlay -->
+  <div class="mobile-overlay"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation Drawer">
+    <div>
+      <div class="brand-logo" style="margin-bottom: 2rem;">
+        <div class="brand-icon-box">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">ScalePulse</span>
+          <span class="brand-tagline">Growth Engineered</span>
+        </div>
+      </div>
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+        <li><a href="problem-solving.html" class="mobile-nav-link">Problem Solving</a></li>
+        <li><a href="conversion.html" class="mobile-nav-link active">Conversion</a></li>
+        <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <button type="button" class="btn btn-analysis btn-block" data-open-modal="analysis">
+        <span class="pulse-dot"></span>
+        GET FREE ANALYSIS
+      </button>
+      <p style="font-size: 0.8rem; text-align: center; color: var(--text-muted); margin-top: 1rem;">
+        Free 19-point audit within 24h
+      </p>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ==================== CRO HERO ==================== -->
+    <section class="cro-hero-section">
+      <div class="container">
+        <div class="reveal-on-scroll">
+          <span class="section-badge">The Conversion Architecture</span>
+          <h1 style="max-width: 900px; margin: 0 auto 1.25rem;">
+            Traffic Is A Commodity. <span class="text-gradient">Conversion Is The Competitive Moat.</span>
+          </h1>
+          <p class="lead" style="max-width: 760px; margin: 0 auto 2.5rem;">
+            Doubling your ad budget doubles your costs. Doubling your landing page conversion rate <strong>cuts your customer acquisition cost in half and quadruples your profit</strong>. Here is the blueprint.
+          </p>
+
+          <div style="display:flex; justify-content:center; gap: 1rem; flex-wrap:wrap;">
+            <button type="button" class="btn btn-primary btn-lg" data-open-modal="analysis">
+              Audit My Landing Page — GET FREE ANALYSIS
+            </button>
+          </div>
+        </div>
+
+        <!-- ==================== INTERACTIVE A/B COMPARISON WIDGET ==================== -->
+        <div class="ab-comparison-widget reveal-on-scroll">
+          <div style="text-align: center; margin-bottom: 2rem;">
+            <span class="section-badge badge-success">Interactive Teardown</span>
+            <h3 style="font-size: 1.85rem; margin-top: 0.5rem;">See The Difference: 1.8% vs 6.4% Conversion Rate</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 0.35rem;">
+              Click below to compare a typical generic agency landing page against the ScalePulse Conversion Framework.
+            </p>
+          </div>
+
+          <!-- Toggle buttons -->
+          <div class="ab-toggle-bar">
+            <button type="button" class="ab-btn" id="ab-btn-control">
+              ❌ Control: Standard Agency Page (1.8% CVR)
+            </button>
+            <button type="button" class="ab-btn active" id="ab-btn-winner">
+              ⚡ Challenger: ScalePulse Architecture (6.4% CVR)
+            </button>
+          </div>
+
+          <!-- Side by Side Panels -->
+          <div class="ab-panels-container">
+            
+            <!-- Control Page Teardown -->
+            <div class="ab-panel-card control" id="ab-panel-control">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-weight: 800; font-size: 1.15rem; color: var(--danger);">The Losing Variant (Control)</span>
+                <span class="section-badge badge-warning" style="margin:0;">1.8% CVR</span>
+              </div>
+              <p style="font-size: 0.9rem; color: var(--text-muted);">
+                What most brands and junior agencies build:
+              </p>
+              <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.75rem;">
+                <li style="display: flex; gap: 0.6rem; font-size: 0.88rem; color: var(--text-body);">
+                  <span style="color: var(--danger); font-weight:800;">✕</span>
+                  <strong>Vague Hero Headline:</strong> "We provide holistic business synergy" (doesn't solve a pain point)
+                </li>
+                <li style="display: flex; gap: 0.6rem; font-size: 0.88rem; color: var(--text-body);">
+                  <span style="color: var(--danger); font-weight:800;">✕</span>
+                  <strong>Slow Load Speed:</strong> 3.4 seconds to First Contentful Paint; 45% mobile bounce
+                </li>
+                <li style="display: flex; gap: 0.6rem; font-size: 0.88rem; color: var(--text-body);">
+                  <span style="color: var(--danger); font-weight:800;">✕</span>
+                  <strong>12-Field Friction Form:</strong> Demanding credit card or huge commitment on first touch
+                </li>
+                <li style="display: flex; gap: 0.6rem; font-size: 0.88rem; color: var(--text-body);">
+                  <span style="color: var(--danger); font-weight:800;">✕</span>
+                  <strong>Weak Social Proof:</strong> Anonymous quotes without photos or tangible metrics
+                </li>
+              </ul>
+              <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border-light); font-size: 0.85rem; color: var(--danger); font-weight: 700;">
+                Cost per Qualified Lead: \$245.00
+              </div>
+            </div>
+
+            <!-- Challenger / ScalePulse Page Teardown -->
+            <div class="ab-panel-card winner active" id="ab-panel-winner">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-weight: 800; font-size: 1.15rem; color: var(--success);">The Winning Variant (ScalePulse)</span>
+                <span class="section-badge badge-success" style="margin:0;">6.4% CVR (+255% Lift)</span>
+              </div>
+              <p style="font-size: 0.9rem; color: var(--text-body);">
+                The engineered psychological conversion structure:
+              </p>
+              <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.75rem;">
+                <li style="display: flex; gap: 0.6rem; font-size: 0.88rem; color: var(--text-body);">
+                  <span style="color: var(--success); font-weight:800;">✓</span>
+                  <strong>Pain-Point Headline:</strong> Addresses ad spend waste and delivers instant clarity in 3 seconds
+                </li>
+                <li style="display: flex; gap: 0.6rem; font-size: 0.88rem; color: var(--text-body);">
+                  <span style="color: var(--success); font-weight:800;">✓</span>
+                  <strong>Sub-Second Speed:</strong> 0.72s LCP load time; mobile optimized with frictionless layout
+                </li>
+                <li style="display: flex; gap: 0.6rem; font-size: 0.88rem; color: var(--text-body);">
+                  <span style="color: var(--success); font-weight:800;">✓</span>
+                  <strong>Smooth Modal Trigger:</strong> Low-barrier audit pop-up that pre-qualifies without intimidation
+                </li>
+                <li style="display: flex; gap: 0.6rem; font-size: 0.88rem; color: var(--text-body);">
+                  <span style="color: var(--success); font-weight:800;">✓</span>
+                  <strong>Proof Density:</strong> Verified ROI figures, video breakdowns, real client case studies
+                </li>
+              </ul>
+              <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid #86efac; font-size: 0.85rem; color: var(--success); font-weight: 700;">
+                Cost per Qualified Lead: \$68.50 (72% Savings!)
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== THE 5 LAWS OF LANDING PAGE CONVERSION ==================== -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal-on-scroll">
+          <span class="section-badge">Methodology</span>
+          <h2 class="section-title">The 5 Non-Negotiable Laws of High Conversion</h2>
+          <p class="section-desc">
+            Every landing page we deploy follows our proprietary conversion heuristics, backed by over 450+ multivariate tests.
+          </p>
+        </div>
+
+        <div class="cro-laws-grid">
+          
+          <div class="cro-law-card reveal-on-scroll">
+            <div class="cro-law-number">01</div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.6rem;">The 3-Second Hook Rule</h3>
+            <p style="font-size: 0.92rem; color: var(--text-body);">
+              A visitor decides whether to stay or bounce in less than 3 seconds. The hero must answer: What is this? Why should I care? And what is the immediate proof?
+            </p>
+          </div>
+
+          <div class="cro-law-card reveal-on-scroll">
+            <div class="cro-law-number">02</div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.6rem;">Frictionless Modal Forms</h3>
+            <p style="font-size: 0.92rem; color: var(--text-body);">
+              Instead of forcing visitors onto intimidating multi-page barriers, we use low-friction, high-intent pop-ups triggered smoothly by high-value offers like audits.
+            </p>
+          </div>
+
+          <div class="cro-law-card reveal-on-scroll">
+            <div class="cro-law-number">03</div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.6rem;">Message Match Continuity</h3>
+            <p style="font-size: 0.92rem; color: var(--text-body);">
+              If your ad says "Cut Google Ads CPA by 50%", your landing page headline must echo that exact promise verbatim to prevent cognitive dissonance.
+            </p>
+          </div>
+
+          <div class="cro-law-card reveal-on-scroll">
+            <div class="cro-law-number">04</div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.6rem;">Proof Density Stacking</h3>
+            <p style="font-size: 0.92rem; color: var(--text-body);">
+              We scatter trust anchors across every scroll viewport: real client logos, verifiable revenue screenshots, video explanations, and client metrics.
+            </p>
+          </div>
+
+          <div class="cro-law-card reveal-on-scroll">
+            <div class="cro-law-number">05</div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.6rem;">Server-Side First-Party CAPI</h3>
+            <p style="font-size: 0.92rem; color: var(--text-body);">
+              Bypassing iOS privacy restrictions and ad blockers with direct server-side signal delivery so Meta and Google feed the algorithm 100% accurate buyer signals.
+            </p>
+          </div>
+
+          <div class="cro-law-card reveal-on-scroll" style="background: linear-gradient(135deg, #090d16 0%, #1e293b 100%); color: #ffffff;">
+            <div class="cro-law-number" style="color: #38bdf8;">ROI</div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.6rem; color: #ffffff;">Ready To Double Your Conversion?</h3>
+            <p style="font-size: 0.92rem; color: #cbd5e1; margin-bottom: 1.5rem;">
+              Get our senior CRO engineers to review your current landing page code and layout for free.
+            </p>
+            <button type="button" class="btn btn-primary btn-block" data-open-modal="analysis">
+              GET FREE ANALYSIS
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== BOTTOM CTA ==================== -->
+    <section class="section" style="text-align: center;">
+      <div class="container" style="max-width: 780px;">
+        <span class="section-badge badge-success">Free Opportunity Audit</span>
+        <h2 style="font-size: 2.3rem; margin-bottom: 1rem;">
+          Find Out Where Your Website Is Leaking Customers.
+        </h2>
+        <p class="section-desc" style="margin-bottom: 2rem;">
+          Our 19-point audit shows you exactly which headlines, form elements, and tracking errors are hurting your conversions.
+        </p>
+        <button type="button" class="btn btn-analysis btn-lg" data-open-modal="analysis">
+          <span class="pulse-dot"></span>
+          GET FREE ANALYSIS
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Sticky Mobile Bottom Bar -->
+  <div class="mobile-sticky-bar">
+    <button type="button" class="btn btn-analysis btn-block" data-open-modal="analysis">
+      <span class="pulse-dot"></span>
+      GET FREE ANALYSIS
+    </button>
+  </div>
+
+  <!-- ==================== SITE FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col-brand">
+          <div class="brand-logo">
+            <div class="brand-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title">ScalePulse</span>
+              <span class="brand-tagline">Growth Engineered</span>
+            </div>
+          </div>
+          <p class="footer-tagline">
+            We engineer high-converting digital marketing systems, paid media funnels, and precision tracking infrastructure that predictably scale company revenue.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="problem-solving.html" class="footer-link">Problem Solving</a></li>
+            <li><a href="conversion.html" class="footer-link">Conversion</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Core Services</h4>
+          <ul class="footer-links-list">
+            <li><a href="problem-solving.html" class="footer-link">Google Ads Scaling</a></li>
+            <li><a href="problem-solving.html" class="footer-link">Meta Ads Creative</a></li>
+            <li><a href="problem-solving.html" class="footer-link">Organic Search SEO</a></li>
+            <li><a href="conversion.html" class="footer-link">Landing Page CRO</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Direct Inquiries</h4>
+          <p style="font-size: 0.9rem; color: var(--text-body); margin-bottom: 0.5rem;">
+            <strong>Email:</strong> audits@scalepulseagency.com
+          </p>
+          <p style="font-size: 0.9rem; color: var(--text-body); margin-bottom: 1rem;">
+            <strong>Phone:</strong> +1 (800) 582-7492
+          </p>
+          <button type="button" class="btn btn-outline btn-block" data-open-modal="analysis" style="font-size: 0.85rem; padding: 0.6rem 1rem;">
+            Request Free Audit
+          </button>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 ScalePulse Digital Agency. All rights reserved.</div>
+        <div style="display:flex; gap: 1.5rem;">
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Terms of Service</a>
+          <a href="#" class="footer-link">Cookie Settings</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== UNIVERSAL "GET FREE ANALYSIS" POP-UP MODAL ==================== -->
+  <div class="modal-backdrop" id="free-analysis-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-window">
+      <button type="button" class="modal-close-btn" data-close-modal aria-label="Close modal">✕</button>
+      
+      <div class="modal-content-wrap">
+        <div class="modal-head">
+          <span class="modal-pill">⚡ Complimentary 19-Point Growth Audit</span>
+          <h3 class="modal-title" id="modal-title">Get Your Free Marketing Analysis</h3>
+          <p class="modal-desc">
+            Complete the fields below. A senior growth strategist will review your ad account, landing page, and tracking setup within 24 hours.
+          </p>
+        </div>
+
+        <form id="analysis-form" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="popup-name">Full Name *</label>
+            <div class="form-input-wrap">
+              <span class="form-input-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </span>
+              <input type="text" id="popup-name" name="fullName" class="form-input" placeholder="e.g. Sarah Jenkins" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="popup-phone">Phone Number *</label>
+            <div class="form-input-wrap">
+              <span class="form-input-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </span>
+              <input type="tel" id="popup-phone" name="phone" class="form-input" placeholder="+1 (555) 000-0000" required>
+            </div>
+          </div>
+
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label class="form-label" for="popup-business">Business Name *</label>
+              <div class="form-input-wrap">
+                <span class="form-input-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect width="16" height="20" x="4" y="2" rx="2" ry="2"></rect>
+                    <path d="M9 22v-4h6v4"></path>
+                  </svg>
+                </span>
+                <input type="text" id="popup-business" name="businessName" class="form-input" placeholder="e.g. Apex Commerce" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="popup-website">Website URL *</label>
+              <div class="form-input-wrap">
+                <span class="form-input-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                  </svg>
+                </span>
+                <input type="url" id="popup-website" name="website" class="form-input" placeholder="https://yourbrand.com" required>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">What service do you need? (Select all that apply)</label>
+            <div class="service-chips-grid">
+              <label>
+                <input type="checkbox" name="services" value="Google Ads" class="chip-checkbox" checked>
+                <div class="chip-label">
+                  <div class="chip-indicator">✓</div>
+                  Google Ads (Search/PMax)
+                </div>
+              </label>
+
+              <label>
+                <input type="checkbox" name="services" value="Meta Ads" class="chip-checkbox" checked>
+                <div class="chip-label">
+                  <div class="chip-indicator">✓</div>
+                  Meta Ads (FB/IG)
+                </div>
+              </label>
+
+              <label>
+                <input type="checkbox" name="services" value="SEO" class="chip-checkbox">
+                <div class="chip-label">
+                  <div class="chip-indicator">✓</div>
+                  Organic SEO Authority
+                </div>
+              </label>
+
+              <label>
+                <input type="checkbox" name="services" value="SMM & Funnel CRO" class="chip-checkbox">
+                <div class="chip-label">
+                  <div class="chip-indicator">✓</div>
+                  SMM & Landing Page CRO
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="popup-budget">Monthly Marketing Budget</label>
+            <select id="popup-budget" name="budget" class="form-input" style="padding-left: 1rem;">
+              <option value="$2,500 - $5,000 / mo">$2,500 – $5,000 / month</option>
+              <option value="$5,000 - $15,000 / mo" selected>$5,000 – $15,000 / month</option>
+              <option value="$15,000 - $50,000 / mo">$15,000 – $50,000 / month</option>
+              <option value="$50,000+ / mo">$50,000+ / month</option>
+            </select>
+          </div>
+
+          <button type="submit" class="form-submit-btn">
+            Get My Free Analysis &amp; Report
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+
+          <p class="form-privacy-note">
+            🔒 100% Confidential. We respect your privacy. No spam. Report delivered within 24 hours.
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

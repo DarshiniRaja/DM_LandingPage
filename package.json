@@ -1,0 +1,24 @@
+{
+  "name": "scalepulse-agency",
+  "version": "1.0.0",
+  "description": "ScalePulse Digital Marketing Agency Landing Page & Conversion Funnel",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "digital-marketing",
+    "landing-page",
+    "conversion-optimization",
+    "google-ads",
+    "meta-ads"
+  ],
+  "author": "ScalePulse Digital",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^6.2.0"
+  }
+}
